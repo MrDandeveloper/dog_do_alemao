@@ -1,0 +1,297 @@
+/*preset page CSS */
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+a{
+  text-decoration: none;
+  color: #fff;
+
+}
+
+
+/*Specific components CSS*/
+
+#logo{
+  width: 70px;
+  display: block;
+  float: left;
+  padding: 0;
+  margin: 0;
+  border-radius: 50%;
+  
+}
+.header{
+  background-color: #006231;
+  color: #fff;
+  padding: 10px;
+  overflow: auto;
+  text-align: right;
+  
+}
+
+.navmenu{
+  list-style-type: none;
+  display: block;
+  float: right;
+
+   
+}
+
+li{
+  font-size: 20px;
+  float: left;
+  color: #fff;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 2px;
+  background-color: #b5112a;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.container{
+  background-image: url(../images/background.jpg);
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  background-color: #400212;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+h3{
+  font-size: 20px;
+  text-align: center;
+  color: #b96450;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+video{
+  width: 500px;
+}
+
+.content {
+  text-align: justify;
+  position: relative;
+  background-color: #ffffffCC;
+  float: left;
+  min-height: 450px;
+  width: 500px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.images{
+  width: 100%;
+  text-align: center;
+}
+.produtos {
+  max-width: 80%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  
+}
+
+h2{
+  color:#b96450;
+  font-size: 30px;
+  text-align: center;
+}
+.subtitle{
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  color: #b96450;
+  padding: 10px;
+}
+.foodRequest{
+  text-align: center;
+}
+
+input, select, button{
+  width: 80%;
+  font-size: 16px;
+  font-weight: 700;
+  height: 50px;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+button{
+  border:none;
+  height: 50px;
+  background-color: #b5112a;
+  color: #fff;
+  font-weight: bold
+}
+
+footer{
+  background-color: black;
+  clear: both;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.form{
+  float: left;
+  text-align: center;
+  margin-top: 10px;
+}
+h4{
+  font-size: 12px;
+}
+.contact{
+  font-size: 14px;
+  height: 20px;
+}
+.send{
+  height: 30px;
+}
+
+#mrDan{
+  float: right;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.copyright{
+  clear: both;
+  padding-top: 50px;
+}
+
+.social{
+  padding-top: 10px;
+}
+.followUs{
+  margin-bottom: 10px;
+}
+
+.sl{
+  padding: 5px;
+  width: 40px;
+}
+
+/* Responsive CSS*/
+
+@media screen and (max-width: 790px) {
+  .logo{
+    float: none;
+    margin: auto;
+    width: 100px;
+    margin-top: 10px;
+  }
+
+  .navmenu{
+    float: none;
+    text-align: center;
+    margin-top: 5px;
+    display:inline;
+  }
+
+  li{
+    float: none;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 1em;
+    padding: 15px;
+    width: 80%;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  .content{
+    float: none;
+    margin: auto;
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .form{
+    float: none;
+    margin-bottom: 20px;
+  }
+
+  #mrDan{
+    float: none;
+    margin: auto;
+  }
+
+
+  
+}
+
+@media screen and (max-width: 640px) {
+  .logo{
+    float: none;
+    margin: auto;
+    width: 100px;
+  }
+
+  .navmenu{
+    float: none;
+    text-align: center;
+    margin-top: 5px;
+    display:inline;
+  }
+
+  li{
+    float: none;
+    margin: auto;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 1em;
+    padding: 15px;
+    width: 80%;
+  }
+
+  h1{
+    font-size: 20px;
+  }
+
+  .content{
+    float: none;
+    margin: auto;
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .form{
+    float: none;
+    margin-bottom: 20px;
+  }
+
+  #mrDan{
+    float: none;
+    margin: auto;
+  }
+
+
+  
+}
+
+
+
+
+

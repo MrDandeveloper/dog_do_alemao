@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" href="./assets/images/icon.jpg" type="image/icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Dog do Alemão</title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="./index.html"><img id="logo" src="./assets/images/logo.ico" alt="logo Dog do Alemão"></a>
+    <ul class="navmenu">
+      <a href="./cardapio/index.html"><li>Cardápio</li></a>
+
+      <a href="./onde-estamos/index.html"><li>Onde estamos </li></a>
+
+      <a href="./sobre-nos/index.html"><li>Sobre Nós</li></a>
+
+      <a href="./contato/index.html"><li>Contato</li></a>
+
+      <a href="./trabalhe-conosco/index.html"><li>Trabalhe Conosco</li></a>
+
+    </ul>
+  </header>
+  <div class="container">
+
+    <h1>O MELHOR CACHORRO QUENTE DO BRASIL</h1>
+
+    <div class="content">
+
+      <h2>Como podemos saciar sua fome?</h2>
+
+      <p class="subtitle">selecione algumas delícias abaixo</p>
+
+      <form class="foodRequest" action="submit" method="get">
+
+        <select name="FOOD" id="food">
+          <option value="null" selected>Qual dog?</option>
+          <option value="simple_dog" >Dog Simples</option>
+          <option value="two_sausage">Dog com 2 salsichas</option>
+          <option value="full_dog">Dog Completo</option>
+        </select>
+
+        <select name="QUANTITY" id="quantity">
+          <option value="null" selected>Quantos?</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          
+        </select>
+
+        <p class="subtitle"> Vai um refrigerante ai?</p>
+
+        <select name="DRINK" id="drink">
+          <option value="null" selected>Qual refri?</option>
+          <option value="coke">Coca Cola</option>
+          <option value="soda">Sprite</option>
+          <option value="guarana">Guaraná Antarctica</option>
+        </select>
+
+        <select name="SIZE" id="size">
+          <option value="null" selected>O tamanho da sua sede é? </option>
+          <option value="can">Lata 350ML</option>
+          <option value="minibottle">Pet 600ML</option>
+          <option value="bottle">Pet 1L</option>
+          <option value="bottle2">Pet 2L</option>
+          <option value="bottle3">Pet 3L</option>
+        </select>
+
+        <button class="button" type="submit" onclick="redirect()">Pedir</a></button>
+      </form>
+      <script id="redirect" src="./assets/js/scripts.js"></script>
+    </div>
+
+    <footer>
+
+      <div class="social">
+        <p class="followUs">Siga-nos nas redes sociais</p>
+        <a href="#"><img class="sl" src="assets/images/Insta.png" alt="Instagram"></a>
+        <a href="#"><img class="sl" src="./assets/images/Twitter.png" alt="Twitter"></a>
+        <a href="#"><img class="sl"src="./assets/images/Youtube.png" alt="Youtube"></a>
+      </div>
+
+      <div class="form">
+        <h4>Inscreva-se para receber nossas atualizações!</h4>
+        <form action="https://gmail.us5.list-manage.com/subscribe/post?u=f1b627c9008e7ebe2f84fafff&amp;id=e6f3b2acdf"
+          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+          target="_blank" novalidate>
+
+          <input class="contact" type="email" name="EMAIL" id="mail" placeholder="email: example@gmail.com">
+
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+              name="b_f1b627c9008e7ebe2f84fafff_e6f3b2acdf" tabindex="-1" value=""></div>
+
+          <button class="send" type="submit">Receber Atualizações</button>
+      </div>
+      </form>
+
+      <a id="mrDan" href="https://github.com/MrDandeveloper">
+        <p>Desenvolvido por: MrDandeveloper</p>
+      </a>
+
+      <p class="copyright">© Copyright Dog do Alemão - Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+</body>
+
+</html>
+
